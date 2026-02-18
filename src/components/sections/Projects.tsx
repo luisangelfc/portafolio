@@ -229,7 +229,7 @@ const Projects = () => {
           role="heading"
           aria-level={2}
         >
-          Featured Projects
+          Proyectos Destacados
         </SectionTitle>
         <motion.div
           variants={containerVariants}
