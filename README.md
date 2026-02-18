@@ -31,12 +31,15 @@ Próximamente disponible.
 ```bash
 git clone https://github.com/.git
 cd TU_REPO
+```
 Instalar dependencias
-
+```bash
 npm install
+```
 Ejecutar servidor de desarrollo
-
+```bash
 npm run dev
+```
 
 
 ## Requerimientos
