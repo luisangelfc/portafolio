@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { theme } from '../../styles/theme';
-import { FaEnvelope, FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const ContactSection = styled.section`
   position: relative;
@@ -81,7 +81,7 @@ const ContactText = styled(motion.p)`
   }
 `;
 
-const ContactEmail = styled(motion.a)`
+/* const ContactEmail = styled(motion.a)`
   display: inline-flex;
   align-items: center;
   gap: ${theme.spacing.sm};
@@ -116,7 +116,7 @@ const ContactEmail = styled(motion.a)`
     transform: translateY(-3px);
     box-shadow: 0 6px 16px ${theme.colors.overlay.dark};
   }
-`;
+`; */
 
 const SocialLinks = styled(motion.div)`
   display: flex;

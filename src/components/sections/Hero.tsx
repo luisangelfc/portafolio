@@ -4,7 +4,6 @@ import { keyframes } from '@emotion/react';
 import { lazy, Suspense } from 'react';
 const FaGithub = lazy(() => import('react-icons/fa').then(mod => ({ default: mod.FaGithub })));
 const FaLinkedin = lazy(() => import('react-icons/fa').then(mod => ({ default: mod.FaLinkedin })));
-const FaEnvelope = lazy(() => import('react-icons/fa').then(mod => ({ default: mod.FaEnvelope })));
 
 const HeroSection = styled.section`
   min-height: calc(100vh - 4.5rem);

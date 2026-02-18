@@ -3,10 +3,7 @@ import { motion } from 'framer-motion';
 import { theme } from '../../styles/theme';
 import { 
   FaReact, 
-  FaNodeJs, 
-  FaDatabase, 
-  FaDocker,
-  FaAws,  
+  FaNodeJs,   
   FaGitAlt,
   FaJava
 } from 'react-icons/fa';
