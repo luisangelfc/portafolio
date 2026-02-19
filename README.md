@@ -1,49 +1,31 @@
 
 # Portafolio WEB
 
-Portafolio moderno y responsivo desarrollado con React, TypeScript y Vite. Incluye animaciones fluidas, alto rendimiento y un enfoque en accesibilidad.
+portfolio-web
 
-##  Demo
-Próximamente disponible.
+Portafolio web personal desarrollado con tecnologías modernas para presentar proyectos, habilidades y experiencia como desarrollador frontend. Incluye diseño responsivo, animaciones suaves y optimización de rendimiento para una experiencia fluida en el navegador.
 
----
+## Características
 
-##  Características
+* Presentación de proyectos y habilidades técnicas
+* Diseño totalmente responsivo
+* Animaciones e interacciones dinámicas
+* Componentes reutilizables
+* Optimización de rendimiento en el cliente
+* Buenas prácticas de accesibilidad web
 
-- **Stack moderno**: React 19, TypeScript, Vite 6
-- **Estilos con Emotion**: Componentes estilizados con `@emotion/styled`
-- **Animaciones suaves**: Implementadas con Framer Motion
-- **Rendimiento optimizado**:
-  - División automática de código
-  - Compresión Brotli y Gzip
-  - Componentes con carga diferida
-  - Visualización del tamaño del bundle
-- **Diseño totalmente responsive**
-- **Accesibilidad**: HTML semántico y atributos ARIA
-- **Soporte para modo oscuro**
-- **Sistema de tema personalizable**
+## Tecnologías utilizadas:
 
----
-
-##  Instalación
-
-1. Clonar el repositorio
-```bash
-git clone https://github.com/.git
-cd TU_REPO
-```
-Instalar dependencias
-```bash
-npm install
-```
-Ejecutar servidor de desarrollo
-```bash
-npm run dev
-```
+* React
+* TypeScript
+* Vite
+* Emotion (Styled Components)
+* npm 7+
+* Node.js
 
 
-## Requerimientos
-- Node.js 18+
-- npm 7+
+## Demo de la aplicación:
 
+...
 
+¡Gracias!

@@ -206,7 +206,7 @@ export const Layout = ({ children }: LayoutProps) => {
       <FloatingNav />
       <Footer role="contentinfo">
         <div className="container">
-          <p>© {new Date().getFullYear()} Luis Angel Hernández Martínez. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Luis Angel Hernández Martínez. Todos los Derechos Reservados.</p>
         </div>
       </Footer>
     </LayoutWrapper>

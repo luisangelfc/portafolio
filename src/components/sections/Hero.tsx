@@ -126,10 +126,10 @@ export const Hero = () => {
         <HeroContent>
           <div>
             <Title role="heading" aria-level={2}>
-              Hola, Soy Luis M
+              Hola, Soy Angel Martínez
             </Title>
             <Subtitle role="heading" aria-level={3}>
-              Full Stack Developer
+              Desarrollador Full Stack
             </Subtitle>
             <Description role="paragraph">
               Desarrollador full stack enfocado en JavaScript y React, comprometido con el aprendizaje continuo y la creación de soluciones web eficientes y escalables. Me motiva combinar creatividad y lógica para transformar ideas en experiencias digitales funcionales y atractivas. Fuera del código, disfruto practicar FLAG, mantenerme en forma y escuchar música.
