@@ -75,7 +75,7 @@ const globalStyles = css`
   }
 
   .container {
-    width: min(90%, 1200px);
+    width: min(94%, 1440px);
     margin-inline: auto;
     padding-inline: ${theme.spacing.md};
     position: relative;
@@ -84,6 +84,10 @@ const globalStyles = css`
   @media (max-width: ${theme.breakpoints.sm}) {
     html {
       font-size: 14px;
+    }
+
+    .container {
+      width: 90%;
     }
   }
 

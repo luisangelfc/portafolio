@@ -1,28 +1,28 @@
 export const theme = {
   colors: {
-  primary: '#0F172A',        // fondo principal (azul oscuro elegante)
-  secondary: '#1E293B',      // superficies
-  accent: '#3B82F6',         // azul principal (interacciones)
+  primary: '#030712',        // fondo midnight
+  secondary: '#0B1223',      // superficies elevadas
+  accent: '#4F8CFF',         // azul principal (interacciones)
   light: '#E2E8F0',          // texto claro real (ANTES estaba mal)
   text: '#F1F5F9',
   textLight: '#E2E8F0',
   textDark: '#0F172A',
 
   glass: {
-    background: 'rgba(148, 163, 184, 0.08)',
-    border: 'rgba(148, 163, 184, 0.15)',
-    card: 'rgba(59, 130, 246, 0.15)',
+    background: 'rgba(8, 15, 30, 0.72)',
+    border: 'rgba(96, 165, 250, 0.18)',
+    card: 'rgba(37, 99, 235, 0.16)',
   },
 
   gradient: {
-    main: 'linear-gradient(135deg, #0F172A 0%, #1E293B 50%, #0F172A 100%)',
+    main: 'linear-gradient(135deg, #02040A 0%, #050B18 52%, #030712 100%)',
     accent: 'linear-gradient(135deg, #3B82F6 0%, #60A5FA 100%)',
-    glass: 'linear-gradient(135deg, rgba(148, 163, 184, 0.12) 0%, rgba(148, 163, 184, 0.05) 100%)',
+    glass: 'linear-gradient(135deg, rgba(37, 99, 235, 0.16) 0%, rgba(15, 23, 42, 0.52) 100%)',
   },
 
   overlay: {
-    light: 'rgba(148, 163, 184, 0.15)',
-    dark: 'rgba(15, 23, 42, 0.6)',
+    light: 'rgba(96, 165, 250, 0.18)',
+    dark: 'rgba(2, 4, 10, 0.72)',
   }
   },
   fonts: {
