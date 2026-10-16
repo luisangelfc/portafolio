@@ -600,7 +600,7 @@ export const Hero = () => {
                   </HighlightItem>
                   <HighlightItem role="listitem">
                     <span className="label">Ubicación</span>
-                    <span className="value">CDMX (Remoto / Híbrido)</span>
+                    <span className="value">CDMX (Remoto / Híbrido / Presencial)</span>
                   </HighlightItem>
                 </HighlightsBar>
 

@@ -416,7 +416,7 @@ const Contact = () => {
             {/* Grid de Tarjetas de Redes Sociales */}
             <SocialCardsGrid role="list" aria-label="Redes sociales y perfiles profesionales">
               <SocialCard
-                href="https://www.linkedin.com/in/luisangelhm04"
+                href="https://www.linkedin.com/in/angelmtzz/"
                 target="_blank"
                 rel="noopener noreferrer"
                 $brandColor="#0A66C2"
@@ -473,7 +473,7 @@ const Contact = () => {
             {/* Banner de Disponibilidad Laboral */}
             <AvailabilityBanner role="status">
               <span className="pulse" aria-hidden="true" />
-              <span>Disponible para posiciones Jr / Full Stack • Remoto o Híbrido (México)</span>
+              <span>Disponible para posiciones Jr / Full Stack • Remoto o Híbrido o Presencial (México)</span>
             </AvailabilityBanner>
           </ContactCard>
         </ContactCardWrapper>
