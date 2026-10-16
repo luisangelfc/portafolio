@@ -1,22 +1,33 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion';
 import { theme } from '../../styles/theme';
-import { 
-  FaReact, 
-  FaNodeJs,   
+import {
+  FaReact,
+  FaJava,
+  FaServer,
+  FaLayerGroup,
+  FaNetworkWired,
+  FaDatabase,
+  FaTerminal,
   FaGitAlt,
-  FaJava
+  FaBug,
 } from 'react-icons/fa';
-import { 
+import {
   SiJavascript,
+  SiTypescript,
   SiHtml5,
   SiCss3,
-  SiAngular,
-  SiDotnet,
+  SiTailwindcss,
+  SiSpringboot,
+  SiSpringsecurity,
+  SiHibernate,
+  SiJsonwebtokens,
   SiMysql,
-  SiPostgresql,
+  SiApachemaven,
+  SiDocker,
+  SiSwagger,
+  SiJunit5,
   SiGithub,
-  SiPython
 } from 'react-icons/si';
 
 const SkillsSection = styled.section`
@@ -64,7 +75,7 @@ const SkillsContainer = styled.div`
   margin-top: ${theme.spacing.xl};
 
   @media (min-width: ${theme.breakpoints.md}) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: ${theme.spacing.xl};
   }
 `;
@@ -154,33 +165,17 @@ const SkillItem = styled(motion.div)`
 
 const skillCategories = [
   {
-    title: 'Frontend',
-    icon: <FaReact />,
+    title: 'Backend (foco principal)',
+    icon: <FaJava />,
     skills: [
-      { name: 'JavaScript', icon: <SiJavascript /> },
-      { name: 'HTML', icon: <SiHtml5 /> },
-      { name: 'CSS', icon: <SiCss3 /> },
-      { name: 'React Native', icon: <FaReact /> },
-      { name: 'Angular', icon: <SiAngular /> },
-    ],
-  },
-  {
-    title: 'Backend',
-    icon: <FaNodeJs />,
-    skills: [
-      { name: 'Node.js', icon: <FaNodeJs /> },
       { name: 'Java', icon: <FaJava /> },
-      { name: 'Python', icon: <SiPython /> },
-      { name: '.NET', icon: <SiDotnet /> },
-    ],
-  },
-  {
-    title: 'Herramientas',
-    icon: <FaGitAlt />,
-    skills: [
-      { name: 'Git', icon: <FaGitAlt /> },
-      { name: 'GitHub', icon: <SiGithub /> },
-      { name: 'Bash / SH', icon: <FaGitAlt /> },
+      { name: 'Spring Boot', icon: <SiSpringboot /> },
+      { name: 'Spring Security', icon: <SiSpringsecurity /> },
+      { name: 'Spring Data JPA / Hibernate', icon: <SiHibernate /> },
+      { name: 'APIs REST', icon: <FaServer /> },
+      { name: 'JWT', icon: <SiJsonwebtokens /> },
+      { name: 'Arquitectura MVC', icon: <FaLayerGroup /> },
+      { name: 'Microservicios', icon: <FaNetworkWired /> },
     ],
   },
   {
@@ -188,7 +183,32 @@ const skillCategories = [
     icon: <SiMysql />,
     skills: [
       { name: 'MySQL', icon: <SiMysql /> },
-      { name: 'PostgreSQL', icon: <SiPostgresql /> },
+      { name: 'SQL', icon: <FaDatabase /> },
+    ],
+  },
+  {
+    title: 'Herramientas & Testing',
+    icon: <FaGitAlt />,
+    skills: [
+      { name: 'Git/GitHub', icon: <SiGithub /> },
+      { name: 'Maven', icon: <SiApachemaven /> },
+      { name: 'Docker', icon: <SiDocker /> },
+      { name: 'Swagger/OpenAPI', icon: <SiSwagger /> },
+      { name: 'JUnit', icon: <SiJunit5 /> },
+      { name: 'Mockito', icon: <FaBug /> },
+      { name: 'Bash / SH', icon: <FaTerminal /> },
+    ],
+  },
+  {
+    title: 'Frontend (complementario)',
+    icon: <FaReact />,
+    skills: [
+      { name: 'JavaScript', icon: <SiJavascript /> },
+      { name: 'TypeScript', icon: <SiTypescript /> },
+      { name: 'React', icon: <FaReact /> },
+      { name: 'HTML', icon: <SiHtml5 /> },
+      { name: 'CSS', icon: <SiCss3 /> },
+      { name: 'Tailwind', icon: <SiTailwindcss /> },
     ],
   },
 ];
