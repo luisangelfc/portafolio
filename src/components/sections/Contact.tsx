@@ -9,7 +9,6 @@ import {
   FaEnvelope,
   FaCopy,
   FaCheck,
-  FaPaperPlane,
   FaArrowRight,
 } from 'react-icons/fa';
 
@@ -235,34 +234,6 @@ const ActionBtn = styled.button`
   }
 `;
 
-const ActionLink = styled.a`
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.7rem 1.25rem;
-  border-radius: 12px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all ${theme.transitions.default};
-  flex: 1;
-  background: ${theme.colors.gradient.accent};
-  color: #030712;
-  border: none;
-  box-shadow: 0 4px 16px rgba(79, 140, 255, 0.35);
-
-  @media (min-width: 640px) {
-    flex: initial;
-  }
-
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 22px rgba(79, 140, 255, 0.5);
-    filter: brightness(1.1);
-  }
-`;
 
 /* Grid de Tarjetas de Redes Sociales */
 const SocialCardsGrid = styled.div`
