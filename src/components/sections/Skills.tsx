@@ -29,6 +29,7 @@ import {
   SiSwagger,
   SiJunit5,
   SiPostgresql,
+  SiOracle,
 } from 'react-icons/si';
 
 const SkillsSection = styled.section`
@@ -348,6 +349,10 @@ export const Skills = () => {
               <SkillPill $accentColor="#38BDF8" role="listitem">
                 <SiPostgresql aria-hidden="true" />
                 <span>PostgreSQL</span>
+              </SkillPill>
+              <SkillPill $accentColor="#EA1B22" role="listitem">
+                <SiOracle aria-hidden="true" />
+                <span>Oracle DB</span>
               </SkillPill>
               <SkillPill $accentColor="#93C5FD" role="listitem">
                 <FaDatabase aria-hidden="true" />

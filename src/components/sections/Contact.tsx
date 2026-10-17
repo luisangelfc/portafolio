@@ -427,7 +427,7 @@ const Contact = () => {
                   <FaLinkedin className="icon" aria-hidden="true" />
                   <div className="meta">
                     <span className="name">LinkedIn</span>
-                    <span className="handle">/in/luisangelhm04</span>
+                    <span className="handle">/in/angelmtzz</span>
                   </div>
                 </div>
                 <FaArrowRight className="arrow" aria-hidden="true" />
