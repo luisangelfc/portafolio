@@ -447,10 +447,10 @@ const SecondaryBtn = styled.a`
   }
 `;
 
-const TYPEWRITER_TEXTS = ['Luis Angel Martínez', 'un Desarrollador Java', 'un Ingeniero Backend', 'Luis Angel Martínez'];
+const TYPEWRITER_TEXTS = ['Luis Angel Martínez', 'Desarrollador Java Full Stack', 'Computólogo'];
 const TYPE_SPEED = 65;    // ms por letra al escribir
 const DELETE_SPEED = 35;  // ms por letra al borrar
-const PAUSE_MS = 2500;    // pausa antes de borrar
+const PAUSE_MS = 4500;    // pausa antes de borrar
 
 function useTypewriter(texts: string[]) {
   const [displayed, setDisplayed] = useState('');
